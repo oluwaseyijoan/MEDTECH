@@ -1,0 +1,229 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+body {
+  font-family: arial;
+  font-size: 14px;
+  /* border-radius: 10px; */
+  /* border: black 8px solid; */
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* padding: 0; */
+  padding: 50px 0;
+  width: 100%;
+  /* max-width: 1000px; */
+  margin: 0 auto;
+  margin-bottom: 0;
+  /* width: 100%; */
+  flex-wrap: wrap;
+  /* align-items: center; */
+  /* border: black 3px solid; */
+  /* border-radius: 15px; */
+  /* width: 70%; */
+  /* grid-template-columns: 1fr 1fr; */
+  /* height: 100vh; */
+  /* flex-direction: row;
+  align-items: center;
+  justify-content: center; */
+}
+.left-half {
+  background-color: #4200ff;
+  /* height: -200%; */
+  flex: 40%;
+  /* width: 100%; */
+  /* height: 100%; */
+  background-image: url(Screenshot.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-attachment: local; */
+  background-blend-mode: normal;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin-bottom: 0;
+
+  /* mix-blend-mode: ; */
+  /* background-size: cover; */
+  /* mix-blend-mode: multiply; */
+}
+.right-half {
+  flex: 60%;
+  background-color: rgb(241, 239, 239);
+  /* margin-left: 20px; */
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+h1 {
+  font-size: 20px;
+  margin-bottom: 1.5rem;
+  /* margin-top: ; */
+  /* margin-left: 20px; */
+  /* text-transform: uppercase; */
+  text-align: center;
+}
+label {
+  /* font-family: arial; */
+  margin-left: 20px;
+}
+input {
+  margin-bottom: 12px;
+  margin-left: 20px;
+  /* display: block; */
+}
+.email-space {
+  display: block;
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 500px;
+  height: 30px;
+  text-align: center;
+  background-color: rgb(224, 237, 253);
+  border: none;
+  outline: none;
+  /* margin-left: 30px; */
+  /* display: inline-block; */
+}
+.password {
+  display: block;
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  background-color: rgb(224, 237, 253);
+  border: none;
+  outline: none;
+}
+.confirm-password {
+  display: block;
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  background-color: rgb(224, 237, 253);
+  border: none;
+  outline: none;
+}
+.full-name {
+  display: block;
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  background-color: rgb(224, 237, 253);
+  border: none;
+  outline: none;
+}
+
+.specialization {
+  display: block;
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  background-color: rgb(224, 237, 253);
+  border: none;
+  outline: none;
+}
+
+.hospital-no {
+  display: block;
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  background-color: rgb(224, 237, 253);
+  border: none;
+  outline: none;
+}
+
+span {
+  color: #0099ff;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+.sign-up {
+  background-color: #4200ff;
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 80px;
+  margin-left: 270px;
+  text-align: center;
+  display: block;
+  margin-bottom: 60px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.sign-up:active {
+  background-color: white;
+  color: #4200ff;
+}
+h2 {
+  color: white;
+  /* margin-left: 20px; */
+  text-align: center;
+  font-weight: bold;
+  vertical-align: top;
+  display: block;
+  margin-top: 0;
+  /* margin-bottom: 100px; */
+}
+.div-full-name {
+  display: inline-block;
+}
+.div-email-space {
+  display: block;
+
+  margin-top: 20px;
+}
+.div-password {
+  display: inline-block;
+  padding-top: 20px;
+}
+.checkbox {
+  display: inline;
+  margin-left: 0;
+}
+.paragraph {
+  display: inline;
+}
+.div-checkbox {
+  display: block;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  /* text-align: center; */
+}
+.paragraph-2 {
+  text-align: center;
+  /* display: inline; */
+}
+/* @media screen and (max-width: 600px) {
+  .grid-container {
+    background-color: lightblue;
+  } */
+
+@media (max-width: 600px) {
+  .grid-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 601px) {
+  .grid-container {
+    width: 100%;
+    /* background-color: red; */
+  }
+}
