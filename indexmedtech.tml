@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medtech</title>
+    <link href="medtech.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="left-half">
+        <h2>Lifeline Hospital</h2>
+      </div>
+      <div class="right-half">
+        <form action="action_page.php">
+          <h1>Sign up for account</h1>
+          <div class="div-full-name">
+            <label for="full-name"><b>Full Name</b></label>
+            <input
+              class="full-name"
+              type="text"
+              placeholder="Your Full Name"
+              name=""
+              required
+            />
+          </div>
+          <div class="div-full-name">
+            <label for="specialization"><b>Specialization</b></label>
+            <input
+              class="specialization"
+              type="text"
+              placeholder="Specialization"
+              name=""
+              required
+            />
+          </div>
+          <div class="div-full-name">
+            <label for="hospital-no"><b>Hospital No</b></label>
+            <input
+              class="hospital-no"
+              type="text"
+              placeholder="Hospital No"
+              name=""
+              required
+            />
+          </div>
+          <div class="div-email-space">
+            <label for="email-space"><b>Email Address</b></label>
+            <input
+              class="email-space"
+              type="text"
+              placeholder="Enter Your Email Address"
+              name="email"
+              required
+            />
+          </div>
+          <div class="div-password">
+            <label for="password"><b>Password</b></label>
+            <input
+              class="password"
+              type="password"
+              placeholder="Your Password"
+              name="password"
+              required
+            />
+          </div>
+          <div class="div-password">
+            <label for="confirm-password"><b>Confirm Password</b></label>
+            <input
+              class="confirm-password"
+              type="password"
+              placeholder="Confirm Your Password"
+              name="confirm-password"
+              required
+            />
+          </div>
+          <div class="div-checkbox">
+            <label
+              ><input class="checkbox" type="checkbox" name="remember me" />
+              <p class="paragraph">
+                I accept all <span><a href="#">terms and conditions</a></span>
+              </p>
+            </label>
+          </div>
+          <button class="sign-up">Sign Up</button>
+          <footer>
+            <p class="paragraph-2">
+              Already have an account? <span><a href="#">Log in</a></span>
+            </p>
+          </footer>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
