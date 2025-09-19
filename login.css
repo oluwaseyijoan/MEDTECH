@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4200ff;
+  font-family: poppins;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.main-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+h1 {
+  margin-bottom: 1.5rem;
+  /* text-transform: uppercase; */
+  font-style: arial;
+  font-size: 20px;
+  font-weight: bold;
+}
+label {
+  margin-bottom: 0.1rem;
+  margin-top: 0.5rem;
+  display: block;
+  /* margin-left: 20px; */
+}
+
+.email-address {
+  display: block;
+  border-radius: 5px;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  outline: none;
+  background-color: rgb(224, 237, 253);
+  transition: border-color 0.3s;
+  border: none;
+}
+.div-checkbox {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+.password {
+  /* display: block;
+  margin-top: 5px;
+  border-radius: 7px;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  background-color: rgb(224, 237, 253);
+  border: none; */
+  display: block;
+  border-radius: 5px;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  outline: none;
+  background-color: rgb(224, 237, 253);
+  transition: border-color 0.3s;
+  border: none;
+}
+button {
+  /* background-color: #4200ff;
+  color: white;
+  font-size: 12px;
+  border-radius: 7px;
+  border: none;
+  padding: 10px 40px; */
+  /* margin-left: 270px; */
+  /* text-align: center;
+  display: block;
+  margin-bottom: 60px; */
+  width: 100%;
+  padding: 0.75rem;
+  color: white;
+  background-color: #4200ff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:active {
+  background-color: white;
+  color: #4200ff;
+}
+a {
+  color: #0099ff;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem;
+  font-weight: bold;
+}
+@media (max-width: 480px) {
+  .main-container {
+    padding: 1.5rem;
+    max-width: 90%;
+  }
+}
